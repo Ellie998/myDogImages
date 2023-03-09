@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  margin: 10rem 0;
+  background-image: linear-gradient(45deg, #ffffff 25%, #f5f5f5 25%, #f5f5f5 50%, #ffffff 50%, #ffffff 75%, #f5f5f5 75%, #f5f5f5 100%);
+  background-size: 8.49px 8.49px;
+}
+
+img {
+  display: block;
+  margin: 3rem auto;
+  height: 30rem;
+  object-fit: cover;
+  box-shadow:  0px 4px 8px rgba(0, 0, 0, 0.659);
+}
+
+button {
+  background-color: rgb(224, 224, 224);
+  color: white;
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  border: transparent;
+  border-radius: 8px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 228, 165);
+  color: white;
+}
